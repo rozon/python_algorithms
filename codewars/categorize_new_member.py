@@ -39,3 +39,8 @@ def openOrSenior(data):
             data_returned.append("Open")
     return data_returned
 
+# Best Solution
+
+
+def openOrSenior_(data):
+    return ["Senior" if age >= 55 and handicap >= 8 else "Open" for (age, handicap) in data]
