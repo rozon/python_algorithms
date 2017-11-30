@@ -27,7 +27,7 @@
 
 # ["Open", "Open", "Senior", "Open", "Open", "Senior"]
 
-# My Solution
+# Solution
 
 
 def openOrSenior(data):

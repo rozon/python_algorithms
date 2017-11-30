@@ -7,7 +7,7 @@
 # return an empty array/list. Don't change the order of
 # the elements that are left.
 
-# My solution
+# Solution
 
 
 def remove_smallest(numbers):
