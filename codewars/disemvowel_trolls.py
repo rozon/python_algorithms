@@ -11,8 +11,10 @@
 # For example, the string "This website is for
 # losers LOL!" would become "Ths wbst s fr lsrs LL!".
 
+import re
+
 
 def disemvowel(string):
-    return string
-
+    replaced = re.sub('[aeiouAEIOU]', '', string)
+    return replaced
 
