@@ -26,5 +26,15 @@
 
 
 def sum_dig_pow(a, b):
-    return []
-
+    result = []
+    for i in range(a, b + 1):
+        temp = 0
+        number = str(i)
+        power = 1
+        for x in number:
+            number_in_number = int(x)
+            temp += number_in_number ** power
+            power += 1
+        if i == temp:
+            result.append(i)
+    return result
