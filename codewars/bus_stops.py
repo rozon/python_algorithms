@@ -18,3 +18,12 @@
 # The second value in the first integer array is 0, since the
 # bus is empty in the first bus stop.
 
+# Solution
+
+
+def number(bus_stops):
+    people_in_the_bus = 0
+    for stops in bus_stops:
+        people_in_the_bus += stops[0]
+        people_in_the_bus -= stops[1]
+    return people_in_the_bus
