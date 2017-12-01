@@ -27,3 +27,9 @@ def number(bus_stops):
         people_in_the_bus += stops[0]
         people_in_the_bus -= stops[1]
     return people_in_the_bus
+
+# Best Solution
+
+
+def number_(bus_stops):
+    return sum([stop[0] - stop[1] for stop in bus_stops])
